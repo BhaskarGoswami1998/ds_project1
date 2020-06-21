@@ -2,7 +2,7 @@
 
 ## Resources
 https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities - Dataset
-## EDA
+## Exploratory Data Analysis
 -Trend of average temperature is increasing with time.The middle of the year experiences the hottest of average temperature.There is a huge -spike at the end of every month
 
 ![](images/avg_temp_year.png)
