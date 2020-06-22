@@ -29,4 +29,23 @@ https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities - Datas
 
 ![](images/avg_temp_region.png)
 
+## Data CLeaning and Preprocessing
+1. Dropping duplicates
+2. Removing 2020  data as it is fairly recently and may contain imputed data
+3. Removing outliers as temperatures below -50
+4. Merging the City data that has the latitude and longitudes of the cities and their distances from the north and south pole
+5. Drop State as it has 50% null values and is of no use to the model
+6. Creating Date column from the Day ,Month, Year for identifying time based patterns
+7.Sorting values by Date and saving the preprocessed dataframe in a csv for use in the future
+
+
+## Baseline model and metrics for evaluation 
+1. Base model with target encoded features and two level features is built.
+2.Metrics decided are :
+   - RMSE
+   - Percentage of predictions having an error of 
+      - +-3, 
+      - +-7, 
+      - +-10 and
+      - "spot on", i.e, 0 after being converted to integer.
 
