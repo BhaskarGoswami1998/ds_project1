@@ -66,6 +66,15 @@ https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities - Datas
       - +-5 % :  86.1581417453811
       - +-7 % :  93.32858076397552
 
+5. Distribution of Prediction and Actual:
+![](images/dist_of_pred_act.png)
+
+6. Scatter plot of  actual and predicted:
+![](images/scatterplot.png)
+
+7.Feature Importance:
+![](images/feature_importance.png)
+
 ## Clusters need to be created
 
 1. We need to create 2 seperate models for the 2 zones of average temperatures.
