@@ -41,7 +41,9 @@ https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities - Datas
 
 ## Baseline model and metrics for evaluation 
 1. Base model with target encoded features and two level features is built.
+2. Lag features created.
 2.Metrics decided are :
+   - Distribution of actual vs predicted values.
    - RMSE
    - Percentage of predictions having an error of 
       - +-3, 
