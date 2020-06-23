@@ -67,12 +67,15 @@ https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities - Datas
       - +-7 % :  93.32858076397552
 
 5. Distribution of Prediction and Actual:
+
 ![](images/dist_of_pred_act.png)
 
 6. Scatter plot of  actual and predicted:
+
 ![](images/scatterplot.png)
 
 7. Feature Importance:
+
 ![](images/features.png)
 
 ## Clusters need to be created
