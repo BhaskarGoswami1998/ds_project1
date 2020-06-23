@@ -30,6 +30,7 @@ https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities - Datas
 ![](images/avg_temp_region.png)
 
 ## Data CLeaning and Preprocessing
+
 1. Dropping duplicates
 2. Removing 2020  data as it is fairly recently and may contain imputed data
 3. Removing outliers as temperatures below -50
@@ -40,17 +41,33 @@ https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities - Datas
 
 
 ## Baseline model and metrics for evaluation 
+
 1. Base model with target encoded features and two level features is built.
-2. Lag features created.
-2.Metrics decided are :
+2. The features used are :
+   - Month.
+   - Longitudinal position of the city.
+   - Distance from North.
+   - The average temperature the previous day of that particular city.
+   - The average temperature of the city a year ago.
+   - The average temperature of the city 2 years ago.
+   - The average temperature of the city 3 years ago.
+   - The mean average temperature of a city in a prticular month in the past.
+   - 30 days rolling mean city wise.
+   - 1 year rolling mean city wise.
+   
+   
+3. Lag features created.
+4. Metrics decided are :
    - Distribution of actual vs predicted values.
-   - RMSE
+   - RMSE and MAE
    - Percentage of predictions having an error of 
       - +-3, 
       - +-7, 
       - +-10 and
       - "spot on", i.e, 0 after being converted to integer.
+
 ## Clusters need to be created
+
 1. We need to create 3 seperate models for the 3 zones of average temperatures.
 2. - Create rolling means in these after grouping them into cities and 
    - Also create a feature that shows the day to day difference in temperature
