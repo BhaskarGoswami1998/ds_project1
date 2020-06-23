@@ -61,10 +61,10 @@ https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities - Datas
    - Distribution of actual vs predicted values.
    - RMSE and MAE
    - Percentage of predictions having an error of 
-      - +-3, 
-      - +-7, 
-      - +-10 and
-      - "spot on", i.e, 0 after being converted to integer.
+      - SPOT ON % :  15.555753579278797
+      - +-3 % :  70.07069446919742
+      - +-5 % :  86.1581417453811
+      - +-7 % :  93.32858076397552
 
 ## Clusters need to be created
 
