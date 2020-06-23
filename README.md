@@ -68,9 +68,6 @@ https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities - Datas
 
 ## Clusters need to be created
 
-1. We need to create 3 seperate models for the 3 zones of average temperatures.
-2. - Create rolling means in these after grouping them into cities and 
-   - Also create a feature that shows the day to day difference in temperature
-   - These sudden spikes in those may sujjest irregularities or anomalies in the data. 
-   - They could be removed as unnecessary noice capping at a particular threshold.
+1. We need to create 2 seperate models for the 2 zones of average temperatures.
+2. Create seperate model for EU and NA as they have different trends of Average Temperature.
 
