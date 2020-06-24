@@ -48,24 +48,24 @@ https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities - Datas
    - Month.
    - Longitudinal position of the city.
    - Distance from North.
-   - The average temperature the previous day of that particular city.
    - The average temperature of the city a year ago.
    - The average temperature of the city 2 years ago.
    - The average temperature of the city 3 years ago.
    - The mean average temperature of a city in a prticular month in the past.
    - 30 days rolling mean city wise.
    - 1 year rolling mean city wise.
-   
-   
+   - percentage of temperature in each city that is below 0 
+   - the mean temperature of a city in a particular season   
 3. Lag features created.
 4. Metrics decided are :
    - Distribution of actual vs predicted values.
-   - RMSE and MAE
+   - RMSE and MAE of 4,9,3.6 respectively
    - Percentage of predictions having an error of 
-      - SPOT ON % :  15.555753579278797
-      - +-3 % :  70.07069446919742
-      - +-5 % :  86.1581417453811
-      - +-7 % :  93.32858076397552
+      - SPOT ON % :  10.42181508308479
+      - +-3 % :  55.67106945036217
+      - +-5 % :  74.92969748615253
+      - +-7 % :  85.89902002556455
+      - +-10 % :  94.30762675756284
 
 5. Distribution of Prediction and Actual:
 
@@ -82,5 +82,10 @@ https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities - Datas
 ## Clusters need to be created
 
 1. We need to create 2 seperate models for the 2 zones of average temperatures.
-2. Create seperate model for EU and NA as they have different trends of Average Temperature.
+2. Create seperate model NA as they have different trends of Average Temperature.
+   - SPOT ON % :  7.281493819584465
+   - +-3 % :  40.52599281143158
+   - +-5 % :  60.27702288068729
+   - +-7 % :  74.05803454019461
+   - +-10 % :  86.0383974752345
 
