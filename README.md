@@ -89,3 +89,10 @@ https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities - Datas
    - +-7 % :  74.05803454019461
    - +-10 % :  86.0383974752345
 
+For NA the feature importances and the scatterplots are as follows:
+![](images/features1.png)
+
+![](images/scatter1.png)
+
+![](images/dist_act_pres_1.png)
+
