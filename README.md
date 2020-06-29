@@ -10,11 +10,13 @@ https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities - Datas
 
 ![](images/avg_temp_year.png)
 
+![](images/avg_temp_lat.png)
+
 ### Finding a relatio between the calculated lattitudes, longitudes, distance from the poles with average temperature
 -Very less variance of average temperature between 8000 to 12000 km 
 -Very less variance of average temperature between -15 to +15
 
-![](images/avg_temp_lat.png)
+![](images/worldmap.png)
 
 1. These 4 Cities have multiple entries as there are two different cities with the same name as their states are different :
    - Charleston :  ['South Carolina' 'West Virginia'],
