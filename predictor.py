@@ -12,6 +12,7 @@ def predictions(data):
 	city_season_agg['combined'] = city_season_agg.City.astype(str)+"_"+city_season_agg.Season.astype(int).astype(str)
 	city_month_agg['combined1'] = city_month_agg.City.astype(str)+"_"+city_month_agg.Month.astype(int).astype(str)
 	#need to write code form two seperate models
+	na_flag = data['NA']
 	temp = {}
 	temp['City'] = data['City']
 	temp['Date'] = pd.to_datetime(data['Date'],format='%d-%m-%Y')
@@ -34,6 +35,9 @@ def predictions(data):
 	test_data['prev_2year'] = test_data['prev_2year'].astype(float)
 	test_data['prev_3year'] = test_data['prev_3year'].astype(float)
 	#print(test_data[selected].dtypes)
-	print(model_not_NA.predict(test_data[selected])[0])
-d = {'City':'Sapporo','Date':'01-01-2020'}
+	if na_flag==0:	
+		print(model_not_NA.predict(test_data[selected])[0])
+	else:
+		print(model_NA.predict(test_data[selected])[0])
+d = {'City':'Sapporo','Date':'01-01-2020',"NA":0}
 predictions(d)
