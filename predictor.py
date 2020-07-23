@@ -34,10 +34,10 @@ def predictions(data):
 	test_data['prev_year'] = test_data['prev_year'].astype(float)
 	test_data['prev_2year'] = test_data['prev_2year'].astype(float)
 	test_data['prev_3year'] = test_data['prev_3year'].astype(float)
-	#print(test_data[selected].dtypes)
+	print(test_data[selected])
 	if na_flag==0:	
 		print(model_not_NA.predict(test_data[selected])[0])
 	else:
 		print(model_NA.predict(test_data[selected])[0])
-d = {'City':'Sapporo','Date':'01-01-2020',"NA":0}
+d = {'City':'Calcutta','Date':'09-07-2020',"NA":0}
 predictions(d)
