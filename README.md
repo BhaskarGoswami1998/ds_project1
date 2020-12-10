@@ -18,17 +18,12 @@ https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities - Datas
 
 ![](images/worldmap.png)
 
-1. These 4 Cities have multiple entries as there are two different cities with the same name as their states are different :
-   - Charleston :  ['South Carolina' 'West Virginia'],
-   - Columbus :    ['Georgia' 'Ohio'],
-   - Portland :    ['Maine' 'Oregon'],
-   - Springfield:  ['Illinois' 'Missouri'].
-2. The Region shows a change in trend when one goes from south to northern hemisphere as the season cycle changes
+1. The Region shows a change in trend when one goes from south to northern hemisphere as the season cycle changes
 
 ![](images/avg_temp__region_month.png)
 
-3. North America and Europe have very less Average Temperature across the year.
-4. South America, Middle East and Africa have above average temperature.
+2. North America and Europe have very less Average Temperature across the year.
+3. South America, Middle East and Africa have above average temperature.
 
 ![](images/avg_temp_region.png)
 
